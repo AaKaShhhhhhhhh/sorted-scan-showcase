@@ -17,7 +17,7 @@ An Android document scanner and PDF workspace that turns paper into clean, organ
   <img src="media/banner.png" alt="Sorted Scan — scan, edit and privately share PDFs" width="100%" />
 </p>
 
-> This is a public showcase of a product I designed and built. The source code is private; this repository holds screenshots and a product overview.
+> **Production code is private.** This repository is a public product showcase with screenshots and an overview. It contains no source code.
 
 ---
 
@@ -83,6 +83,17 @@ Bills, IDs, receipts, certificates, class notes: paperwork you need on your phon
 </table>
 
 ---
+
+## Tech stack
+
+| Area | Technologies |
+|---|---|
+| App | Flutter, Dart |
+| Native Android | Kotlin |
+| Scanning | Google ML Kit Document Scanner |
+| PDF processing | PDFBox for Android |
+| Accounts and sync | Firebase Authentication, Google Sign-In, Firebase Cloud Messaging |
+| Security | End-to-end encryption, Firebase App Check (Play Integrity), secure on-device key storage |
 
 ## The Sorted family
 
